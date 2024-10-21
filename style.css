@@ -4,24 +4,84 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #0e1a3b; /* Background color */
+    font-family: Arial, sans-serif;
+    
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #e1f4ff; /* Background color for container */
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(5, 18, 61, 0.943);
     width: 90%;
     max-width: 400px;
 }
 
 /* TODO: Add styles for labels, inputs, buttons, and output text */
+
 h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #08052d; /* Header color */
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color:#08052d; /* Header color */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #242424;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.copyBtn{
+    background-color: #00e056;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:rgb(206, 132, 20);
+}
+.copyBtn:hover{
+    background-color: rgb(206, 132, 20);
 }
 
 /* Add more styles here as needed */
+body{
+    background: linear-gradient(135deg, #1e3c72 0%, #519cca 50%, #61eabc 100%);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: linear-gradient(135deg, #bee3ff 0%, #c8f1ff 50%, #dbfff3 100%);
+}
