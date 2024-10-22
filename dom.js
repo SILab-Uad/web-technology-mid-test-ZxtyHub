@@ -8,7 +8,7 @@ document.getElementById('generateBtn').addEventListener('click', () => {
         includeNumbers: document.getElementById('includeNumbers').checked,
         includeSpecialChars: document.getElementById('includeSpecialChars').checked,
     };
-    
+
     try {
         const password = generatePassword(length, options);
         document.getElementById('passwordOutput').value = password; 
@@ -16,7 +16,7 @@ document.getElementById('generateBtn').addEventListener('click', () => {
         alert(error.message); // Show the error message in an alert
     }
 });
-    
+
 // Copy to Clipboard functionality
 document.getElementById('copyBtn').addEventListener('click', () => {
     const passwordOutput = document.getElementById('passwordOutput').value;
